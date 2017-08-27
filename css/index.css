@@ -1,0 +1,140 @@
+/*banner样式*/
+.banner{height:520px;box-shadow:  0 10px 10px rgba(0,0,0,0.5);position: relative;}
+.banner .img1{width:100%;height:100%;cursor: pointer;}
+.banner .bannernav{height:56px;border:1px solid #ccc;border-left: none;border-right: none;background:#fff;position: absolute;bottom: 30px;left: 50%;margin-left: -500px;padding:6px 11px 6px 7px;width:982px}
+.banner .bannernav .left{padding-top: 6px;border-right: 1px solid #ccc;float: left;padding-right: 24px;}
+.banner .bannernav .mid{float:left;width:547px;padding:3px 0 0 16px ;overflow: hidden;}
+.banner .bannernav .mid li{float:left;padding:0 10px;}
+.banner .bannernav .mid li a{padding:0 8px;height:24px;line-height: 24px;font-size: 12px;color:#333;}
+.banner .bannernav .mid li:hover{background:#000}
+.banner .bannernav .mid li:hover a{color:#fff;}
+.banner .bannernav .right a:hover{background:#653600}
+.banner .bannernav .right{float:right;padding-left: 20px;width:237px;padding-top: 12px;;}
+.banner .bannernav .right a{display: block;width:114px;height:32px;line-height:32px;border-radius: 6px;background:#7a1607;color:#fff;font-size: 16px;text-align: center;float:left;margin-right: 4px;}
+/*main的样式*/
+.main{height:1565px;box-shadow:  0 10px 10px rgba(0,0,0,0.5);}
+/*item1样式*/
+.main .item1{height:380px;margin-top: 20px;}
+.main .item1 .left{height:380px;border:1px solid #ccc;width:305px;float:left}
+.main .item1 .mid{height:380px;border:1px solid #ccc;width:415px;float:left;margin:0 11px}
+.main .item1 .right{height:380px;border:1px solid #ccc;width:252px;float:left}
+.main .item1 .left .up{margin: 6px 13px 0;border-bottom: 1px solid #ccc;}
+.main .item1 .left .up h3{height:40px;line-height:40px ;color:#333333;font-size: 18px;border-bottom: 1px solid #7a1607;display: inline-block;padding:0 5px}
+.main .item1 .left .up h3 span{color:#9f1500}
+.main .item1 .left .up a{height:40px;line-height:40px ;color:#a6a6a6;font-size: 12px;float: right;padding-right: 5px;}
+.main .item1 .left .up a:hover{color:#79130D}
+.main .item1 .left .up img{float: right;margin-top: 14px;}
+.main .item1 .left .down{padding-top: 6px;}
+.main .item1 .left .down .leftlist{float: left;}
+.main .item1 .left .down .leftlist li{width:118px;height:40px;line-height: 40px;font-size: 14px;border-top: 1px solid #ccc;text-align: center;box-shadow: 0px 2px 10px 0 rgba(0,0,0,0.2) inset;cursor: pointer;}
+.main .item1 .left .down .leftlist li:hover{background:#7E1606;color:#fff}
+.main .item1 .left .down .leftlist .active{background:#7E1606;color:#fff}
+.main .item1 .left .down .rightpic{float: left;position:relative;width:186px;}
+.main .item1 .left .down .rightpic img{width:186px;height:196px;float: left;}
+.main .item1 .left .down .rightpic .bannernight{width:186px;height:31px;line-height:31px;position: absolute;top:165px;background:rgba(255,255,255,0.5)}
+.main .item1 .left .down .rightpic .bannernight p{font-size: 16px;color: #000;text-align: center;}
+.main .item1 .left .down .rightpic .text{font-size: 16px;line-height:22px;color: #000;padding:5px 0;float: left;padding:5px}
+.main .item1 .mid .up{line-height:42px;height:42px;position: relative;overflow: hidden;}
+.main .item1 .mid .up span{line-height:15px;height:15px;color: #000;font-size: 12px;float: left;padding:0 7px;display: block;background:#8E120D;color:#fff;margin-top: 17px;margin-left: 16px;}
+.main .item1 .mid .up p{margin-left:10px;line-height:38px;height:38px;color: #000;font-size: 12px;float: left;margin-top: 4px;cursor: pointer;}
+.main .item1 .mid .up p:hover{color: #9F1500;}
+.main .item1 .mid .up .newslog{position: absolute;right: 0;top: 0;width:56px;line-height:95px;height:56px;background:#79130D;color: #fff;transform:rotateZ(45deg) translateX(1px) translateY(-38px);font-size: 12px;text-align: center;}
+.main .item1 .mid .midd .text{border-bottom: 1px dotted #ccc;margin:0 15px;}
+.main .item1 .mid .midd .text h3{height:37px;line-height: 37px;font-size: 16px;color:#9f1500}
+.main .item1 .mid .midd .text p{line-height: 20px;font-size: 12px;padding-bottom: 11px;}
+.main .item1 .mid .midd .text a{color:#9f1500}
+.main .item1 .mid .down .text{padding:10px 0;border: 1px dotted #ccc;margin:0 20px;}
+.main .item1 .mid .down .text2{border:none}
+.main .item1 .mid .down ul{float: left;width:170px;}
+.main .item1 .mid .down .first{padding-right: 33px;}
+.main .item1 .mid .down li{font-size: 12px;height:24px;line-height:24px ;}
+.main .item1 .mid .down  a{color:#000}
+.main .item1 .mid .down  a:hover{color:#9F1500}
+.main .item1 .right .up{padding:0 13px ;background:#F6F6F6}
+.main .item1 .right .up .up_wrap{border-bottom: 1px solid #ccc;}
+.main .item1 .right .up h3{height:40px;line-height:40px ;color:#333333;font-size: 18px;border-bottom: 1px solid #7a1607;display: inline-block;padding:0 5px}
+.main .item1 .right .up h3 span{color:#9f1500}
+.main .item1 .right .pic{padding:0 10px;background:#F6F6F6}
+.main .item1 .right .pic img{width:235px;}
+.main .item1 .right .pic p{line-height: 20px;font-size: 12px;padding-bottom: 11px;}
+.main .item1 .right .pic a{color:#9f1500}
+.main .item1 .right .text{padding:0 8px}
+.main .item1 .right .text .icon_wrap a{color:#000}
+.main .item1 .right .text .icon_wrap .listIcon{float: left;height:33px;line-height: 33px;font-size: 13px;padding:0 9px}
+.main .item1 .right .text .icon_wrap .first{border-right: 1px solid #ccc;}
+.main .item1 .right .text .icon_wrap .listIcon img{float: left;}
+.main .item1 .right .text .icon_wrap .listIcon p{float: left;padding-left: 10px;}
+.main .item1 .right .text .icon_wrap .listIcon p:hover{color:#9f1500}
+.main .item1 .right .text .icon_wrap .listIcon p span{color:#9f1500}
+/*广告图样式*/
+.main .advimage{padding:18px 0}
+/*          item2样式           */
+.main .item2{height:338px;margin-top: 20px;border: 1px solid #ccc;}
+.main .item2 .up{padding-top: 6px;margin:0 15px;border-bottom: 1px solid #ccc;}
+.main .item2 .up h3{height:40px;line-height:40px ;color:#333333;font-size: 18px;border-bottom: 1px solid #7a1607;display: inline-block;padding:0 5px}
+.main .item2 .up h3 span{color:#9f1500}
+.main .item2 .up a{width:15px;height:15px;line-height:15px ;color:#fff;font-size: 12px;float: right;background:#87120D;margin-right: 4px;display: block;margin-top: 10px;text-align: center;}
+.main .item2 .list li{width:165px;padding:10px 17px 0;float: left;}
+.main .item2 .list h4{height:28px;line-height:28px ;color:#333333;font-size: 12px;font-weight: bold;padding-left: 9px;}
+.main .item2 .list p{line-height:18px ;color:#333333;font-size: 12px;padding-left: 9px;}
+.main .item2 .list img{width:100%;height:163px;cursor: pointer;}
+.main .item2 .list a{width:76px;height:23px;display: block;color: #fff;line-height: 23px;text-align: center;font-size: 12px;background:#7a1607;float: left;}
+.main .item2 .list .first{margin-right: 8px;background:#747474;}
+.main .item2 .list .first:hover{background:#7a1607;}
+/*  item3left样式    */
+.main .item3 .left{width:733px;height:338px;border:1px solid #ccc;float: left;}
+.main .item3 .left .up{margin: 6px 15px 0;border-bottom: 1px solid #ccc;}
+.main .item3 .left .up h3{height:40px;line-height:40px ;color:#333333;font-size: 18px;border-bottom: 1px solid #7a1607;display: inline-block;padding:0 5px}
+.main .item3 .left .up h3 span{color:#9f1500}
+.main .item3 .left .up ul{float: right;}
+.main .item3 .left .up ul li{width:88px;height: 23px;line-height: 23px;color: #fff;background:#888888;text-align: center;font-size: 14px;float: left;margin-left: 10px;margin-top: 12px;cursor: pointer;}
+.main .item3 .left .up ul li:hover{background:#79130D}
+.main .item3 .left .up ul .active{background:#79130D}
+.main .item3 .left .downs{padding:13px 16px 0;}
+.main .item3 .left .downs .lunbo{float: left;}
+.main .item3 .left .downs .lunbo .pic{width:200px;height:253px;position: relative;padding:1px;border: 1px solid #ccc;}
+.main .item3 .left .downs .lunbo img{width:100%;height:100%;}
+.main .item3 .left .downs .lunbo .pic .bannernight{width:100%;height:31px;line-height:31px;position: absolute;bottom:0px;background:rgba(0,0,0,0.3)}
+.main .item3 .left .downs .lunbo .pic .bannernight p{font-size: 12px;color: #fff;padding-left: 6px;cursor: pointer;}
+.main .item3 .left .downs .lunbo .pic .bannernight p:hover{color:#79130D}
+.main .item3 .left .downs .text{width:497px;float: left;}
+.main .item3 .left .downs .text .uplist{border-bottom: 1px solid #ccc;}
+.main .item3 .left .downs .text .uplist .pics{width:121px;height:79px;padding:1px;border: 1px solid #ccc;float: left;margin:0 20px 0 10px;}
+.main .item3 .left .downs .text .uplist .pics img{width:100%;height:100%}
+.main .item3 .left .downs .text .uplist .pic h3{height:37px;line-height: 37px;font-size: 16px;color:#9f1500}
+.main .item3 .left .downs .text .uplist .pic p{line-height: 20px;font-size: 12px;padding-bottom: 11px;}
+.main .item3 .left .downs .text .uplist .pic a{color:#9f1500}
+.main .item3 .left .downs .textlist{padding:10px 0;border-bottom: 1px dotted #ccc;margin-left: 10px;}
+.main .item3 .left .downs .textlist2{border:none}
+.main .item3 .left .downs .textlist ul{float: left;width:224px;}
+.main .item3 .left .downs .textlist .first{padding-right: 33px;}
+.main .item3 .left .downs .textlist li{font-size: 12px;height:24px;line-height:24px ;}
+.main .item3 .left .downs .textlist a{color:#000;}
+.main .item3 .left .downs .textlist a:hover{color:#79130D;}
+/* item3right样式 */
+.main .item3 .right{width:252px;height:338px;border: 1px solid #ccc;float: left;margin-left: 11px}
+.main .item3 .right .up{margin: 6px 13px 0px;border-bottom: 1px solid #ccc;}
+.main .item3 .right .up h3{height:40px;line-height:40px ;color:#333333;font-size: 18px;display: inline-block;padding:0 5px}
+.main .item3 .right .up a{height:40px;line-height:40px ;color:#a6a6a6;font-size: 12px;float: right;padding-right: 5px;}
+.main .item3 .right .up img{float: right;margin-top: 14px;}
+.main .item3 .right .down .down_list{margin:12px 10px 0;border-bottom: 1px dashed #ccc;padding-bottom: 4px;}
+.main .item3 .right .down .last{margin:12px 10px 0px;border-bottom:none}
+.main .item3 .right .down .down_list span{float: left;width:16px;height:16px;display: block;background:#757575;color: #fff;font-size: 12px;line-height: 16px;text-align: center;margin-top: 3px;}
+.main .item3 .right .down .down_list p{width:200px;padding:0 8px;float: left;line-height: 23px;font-size: 12px;}
+.main .item3 .right .down .down_list .blod{font-weight: bold;}
+.main .item3 .right .down .click a{width:114px ;height:31px ;line-height: 31px;border-radius: 6px;color: #FFFFFF;font-size:15px ;background:#79130D;display: block;text-align: center;float: left;margin:0 5px;}
+.main .item3 .right .down .click a:hover{background:#653600}
+.main .item3 .right .down .click a img{padding-top: 4px;float: left;padding-left: 12px;}
+/*item4样式*/
+.main .item4{margin-top: 15px;border: 1px solid #ccc;padding:0 15px;}
+.main .item4 .up{height:56px;border-bottom: 1px solid #ccc;}
+.main .item3 .left .up ul li:hover{background:#79130D}
+.main .item4 .up li{width:88px;height: 23px;line-height: 23px;color: #fff;background:#888888;text-align: center;font-size: 14px;float: left;margin-right: 10px;margin-top: 18px;cursor: pointer;}
+.main .item4 .up ul li:hover{background:#79130D}
+.main .item4 .up ul .active{background:#79130D}
+.main .item4 .down{padding-top: 15px;}
+.main .item4 .down .piclist{width:203px;text-align: center;float: left;padding-right: 50px;padding-bottom: 16px;}
+.main .item4 .down .piclist p{height: 36px;line-height: 36px;font-size:16px;color:#666 ;overflow: hidden;cursor: pointer;}
+.main .item4 .down .piclist p:hover{color:#79130D}
+.main .item4 .down .last{padding-right:0;}
+.main .item4 .down .piclist img{width:100%;}

@@ -1,0 +1,41 @@
+/*基本属性样式*/
+*{margin:0;padding:0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+.clearfix:after{content: "";display: block;height: 0;clear:both;visibility: hidden;}
+/*顶部样式*/
+.top{border-bottom: 1px solid #F1F1F1;background:#F8F8F8}
+.inner{width:1000px;margin: 0 auto;}
+.top span{height:28px;line-height: 28px;font-size:12px ;color:#666666}
+.top ul{float:right}
+.top li{float:left;font-size: 12px;height:28px;line-height: 28px;padding:0 8px;}
+.top li a{color:#666666}
+.top li a:hover{color:#79130D}
+.top .last{padding:0 0 0 8px;}
+.top img{padding-top:4px;float:left;padding-right: 6px;}
+/*头部样式*/
+header .log{float:left}
+header img{padding:17px 0 16px;float:left}
+header .search{float:right;padding-top: 26px;}
+header .search .text{width:326px;height:10px;line-height:30px;border:1px solid #999;padding:10px;font-size: 12px;color:#ccc;margin-right: 5px;}
+header .search .submit{width:54px;height:32px;line-height:32px;font-size: 14px;color:#fff;background:#000;border:none;float:right;cursor: pointer;}
+header .search span{float:left;height:30px;line-height: 30px;font-size: 12px}
+header .search li{float:left;height:30px;line-height: 30px;font-size: 12px;padding:0 7px}
+header .search a{color:#000;}
+header .search a:hover{color:#79130D}
+/*导航条样式*/
+nav{background:#79130D;box-shadow: 0 10px 10px rgba(0,0,0,0.5);}
+nav li{float:left;border-left: 1px solid #8e392c;border-right: 1px solid #5b0d01;font-size: 14px;}
+nav li:hover{background:#3B0704}
+nav .first{border-left:none;border-right: 1px solid #5b0d01;margin-left: 22px;}
+nav .active{background:#3B0704}
+nav a{height:40px;line-height: 40px;padding:0 32px;color:#fff;display: block;}
+/*底部样式*/
+footer{height:120px;background:#EDEDED;padding-top: 24px;}
+footer .botlog{float: left;border-right: 1px solid #ccc;padding:10px 29px 10px 0;}
+footer .botlog img{width:276px;height:68px;cursor: pointer;}
+footer .text{float: left;padding-left: 18px;width:675px;}
+footer .text li{float: left;font-size: 12px;height: 20px;line-height: 20px;cursor: pointer;}
+footer .text li:hover{color:#3B0704;}
+footer .text li span{padding:0 13px;}
+footer .text p{height: 24px;line-height: 24px;font-size: 12px;}
